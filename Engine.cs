@@ -144,7 +144,7 @@ namespace EmIR
 
         void CognitivEmoStateUpdated(object sender, EmoStateUpdatedEventArgs e)
         {
-            Rule rule = App.CurrentApp.Rules.FirstOrDefault(r => r.Headset == e.userId && r.Action == e.emoState.CognitivGetCurrentAction());
+            Rule rule = App.CurrentApp.Rules.FirstOrDefault(r => r.Headset == e.userId && r.Action == e.emoState.CognitivGetCurrentAction() && r.IRCode != null);
             if (rule != null && e.emoState.CognitivGetCurrentActionPower() >= rule.Threshold)
             {
                 if (rule.IRCode != lastIRCode)
