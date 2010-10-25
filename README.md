@@ -4,7 +4,7 @@ EmIR
 A tool to map actions received from the [Emotiv][1] neuroheadset to IR codes 
 sent with [USB-UIRT][2].
 
-![EmIR Screenshot][7]
+![EmIR Screenshot][6]
 
 See the [EmIR Wiki][5] for more details.
 
@@ -30,7 +30,7 @@ License
 	you may not use this file except in compliance with the License.
 	You may obtain a copy of the License at
 	
-	    [http://www.apache.org/licenses/LICENSE-2.0][6]
+	    http://www.apache.org/licenses/LICENSE-2.0
 	
 	Unless required by applicable law or agreed to in writing, software
 	distributed under the License is distributed on an "AS IS" BASIS,
@@ -47,5 +47,4 @@ UsbUirtManagedWrapper.dll provided by [USB-UIRT][2].
 [3]: http://www.famfamfam.com/lab/icons/silk/
 [4]: http://www.microsoft.com/express/Downloads/#2010-Visual-CS
 [5]: http://github.com/daspilker/emir/wiki
-[6]: http://www.apache.org/licenses/LICENSE-2.0
-[7]: http://farm2.static.flickr.com/1361/5114861583_4ca36a1c67.jpg
+[6]: http://farm2.static.flickr.com/1361/5114861583_4ca36a1c67.jpg
