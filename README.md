@@ -7,14 +7,15 @@ sent with [USB-UIRT][2].
 Compiling
 ---------
 
-To compile this project, you need several additional DLLs which may not be
-distributed due to licensing restrictions.
+To compile this project you can use [Visual C# 2010 Express][4].
 
-From the Emotiv SDK installation directory copy the following files to the
-project directory:
-* ´DotNetEmotivSDK.dll´
-* ´edk.dll´
-* ´edk_utils.dll´
+You need several additional DLLs which may not be distributed due to licensing
+restrictions. Copy the following files from the Emotiv SDK installation
+directory to the project directory:
+
+* `DotNetEmotivSDK.dll`
+* `edk.dll`
+* `edk_utils.dll`
 
 License
 -------
@@ -37,9 +38,7 @@ Some icons are provided by the [Silk icon set][3].
 
 UsbUirtManagedWrapper.dll provided by [USB-UIRT][2].
 
-Links
------
-
 [1]: http://www.emotiv.com/
 [2]: http://www.usbuirt.com/
 [3]: http://www.famfamfam.com/lab/icons/silk/
+[4]: http://www.microsoft.com/express/Downloads/#2010-Visual-CS
