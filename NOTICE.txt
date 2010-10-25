@@ -1,0 +1,8 @@
+EmIR
+Copyright 2010 Daniel A. Spilker
+
+Some icons provided by the Silk icon set:
+http://www.famfamfam.com/lab/icons/silk/
+
+UsbUirtManagedWrapper.dll provided by USB-UIRT:
+http://www.usbuirt.com/

@@ -1,0 +1,8 @@
+bin/
+obj/
+*.user
+*.suo
+*~
+edk.dll
+edk_utils.dll
+DotNetEmotivSDK.dll
