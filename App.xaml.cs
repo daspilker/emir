@@ -41,6 +41,12 @@ namespace EmIR
             get { return this.GetType().Assembly.GetName().Version.ToString(); }
         }
 
+        public void ClearData()
+        {
+            Rules.Clear();
+            IRCodes.Clear();
+        }
+
         protected override void OnStartup(StartupEventArgs e)
         {
             IRCodes = new ObservableCollection<IRCode>();

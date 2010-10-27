@@ -50,8 +50,7 @@ namespace EmIR.UI
             Settings.Default.FileName = null;
             Settings.Default.Save();
 
-            App.CurrentApp.IRCodes.Clear();
-            App.CurrentApp.Rules.Clear();
+            App.CurrentApp.ClearData();
         }
 
         void OpenExecuted(object sender, ExecutedRoutedEventArgs e)
@@ -61,6 +60,8 @@ namespace EmIR.UI
             bool? result = fileDialog.ShowDialog(this);
             if (result.Value)
             {
+                App.CurrentApp.ClearData();
+
                 new DataFile(fileDialog.FileName).Load(App.CurrentApp.IRCodes, App.CurrentApp.Rules);
 
                 Settings.Default.FileName = fileDialog.FileName;
