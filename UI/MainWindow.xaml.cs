@@ -88,7 +88,7 @@ namespace EmIR.UI
             bool? result = fileDialog.ShowDialog(this);
             if (result.Value)
             {
-                new DataFile(Settings.Default.FileName).Save(App.CurrentApp.IRCodes, App.CurrentApp.Rules);
+                new DataFile(fileDialog.FileName).Save(App.CurrentApp.IRCodes, App.CurrentApp.Rules);
 
                 Settings.Default.FileName = fileDialog.FileName;
                 Settings.Default.Save();
