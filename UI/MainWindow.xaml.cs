@@ -47,6 +47,9 @@ namespace EmIR.UI
 
         void NewExecuted(object sender, ExecutedRoutedEventArgs e)
         {
+            Settings.Default.FileName = null;
+            Settings.Default.Save();
+
             App.CurrentApp.IRCodes.Clear();
             App.CurrentApp.Rules.Clear();
         }
