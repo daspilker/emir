@@ -21,6 +21,15 @@ directory to the project directory:
 * `edk.dll`
 * `edk_utils.dll`
 
+Sponsors
+-------
+
+Good School
+
+!(Good School Logo)[http://www.good-school.de/themes/good_school/logo.png]
+
+http://www.good-school.de/
+
 License
 -------
 
