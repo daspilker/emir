@@ -69,14 +69,14 @@ namespace EmIR
                 USBUIRTInterface = new USBUIRTInterface();
                 USBUIRTInterface.Connect();
             }
-            catch (ApplicationException) { }
+            catch (Exception) { }
 
             try
             {
                 EmotivInterface = new EmotivInterface();
                 EmotivInterface.Connect();
             }
-            catch (ApplicationException) { }
+            catch (Exception) { }
 
             Engine = new Engine();
             Engine.Start();

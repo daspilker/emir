@@ -20,6 +20,7 @@ using System.Windows;
 using System.Windows.Input;
 using EmIR.Models;
 using EmIR.Properties;
+using Emotiv;
 using Microsoft.Win32;
 
 namespace EmIR.UI
@@ -107,7 +108,7 @@ namespace EmIR.UI
                 App.CurrentApp.EmotivInterface.Port = 3008;
                 App.CurrentApp.EmotivInterface.Reconnect();
             }
-            catch (Emotiv.EmoEngineException ex)
+            catch (EmoEngineException ex)
             {
                 MessageBox.Show(ex.Message, "EmoEngine Error", MessageBoxButton.OK, MessageBoxImage.Error);
             }
@@ -120,7 +121,7 @@ namespace EmIR.UI
                 App.CurrentApp.EmotivInterface.Port = 1726;
                 App.CurrentApp.EmotivInterface.Reconnect();
             }
-            catch (Emotiv.EmoEngineException ex)
+            catch (EmoEngineException ex)
             {
                 MessageBox.Show(ex.Message, "EmoEngine Error", MessageBoxButton.OK, MessageBoxImage.Error);
             }
@@ -132,10 +133,9 @@ namespace EmIR.UI
             {
                 App.CurrentApp.EmotivInterface.Reconnect();
             }
-            catch (Emotiv.EmoEngineException ex)
+            catch (EmoEngineException ex)
             {
                 MessageBox.Show(ex.Message, "EmoEngine Error", MessageBoxButton.OK, MessageBoxImage.Error);
-
             }
         }
 
@@ -144,6 +144,10 @@ namespace EmIR.UI
             try
             {
                 App.CurrentApp.USBUIRTInterface.Reconnect();
+            }
+            catch (TypeInitializationException)
+            {
+                MessageBox.Show("USB-UIRT driver not installed.", "USB-UIRT Error", MessageBoxButton.OK, MessageBoxImage.Error);
             }
             catch (ApplicationException ex)
             {
