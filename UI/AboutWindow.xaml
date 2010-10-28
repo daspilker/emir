@@ -31,7 +31,7 @@
         <DockPanel>
             <StackPanel DockPanel.Dock="Right" Margin="12,0,0,0">
                 <TextBlock Text="Sponsored by:"/>
-                <Image Source="Images\good-school.png" Width="123" Margin="0,6"/>
+                <Image Source="Images\good-school.png" Width="123" Height="93" Margin="0,6"/>
                 <TextBlock>
                 <Hyperlink NavigateUri="http://www.good-school.de/" RequestNavigate="HyperlinkRequestNavigate">http://www.good-school.de/</Hyperlink>
                 </TextBlock>
