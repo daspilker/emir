@@ -28,6 +28,7 @@
         <CommandBinding Command="Open" Executed="OpenExecuted"/>
         <CommandBinding Command="Save" Executed="SaveExecuted"/>
         <CommandBinding Command="SaveAs" Executed="SaveAsExecuted"/>
+        <CommandBinding Command="Help" Executed="HelpExecuted"/>
         <CommandBinding Command="e:Commands.Exit" Executed="ExitExecuted"/>
         <CommandBinding Command="e:Commands.ConnectToControlPanel" Executed="ConnectToControlPanelExecuted"/>
         <CommandBinding Command="e:Commands.ConnectToEmoComposer" Executed="ConnectToEmoComposerExecuted"/>
@@ -128,6 +129,12 @@
                 </MenuItem>
             </MenuItem>
             <MenuItem Header="_Help">
+                <MenuItem Command="Help">
+                    <MenuItem.Icon>
+                        <Image Source="Images\help.png" Width="16" Height="16"/>
+                    </MenuItem.Icon>
+                </MenuItem>
+                <Separator/>
                 <MenuItem Header="About EmIR" Command="e:Commands.ShowAboutDialog">
                     <MenuItem.Icon>
                         <Image Source="Images\information.png" Width="16" Height="16"/>

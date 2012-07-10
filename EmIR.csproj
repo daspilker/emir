@@ -182,6 +182,7 @@
     <Content Include="edk_utils.dll">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
+    <Resource Include="UI\Images\help.png" />
     <Resource Include="UI\Images\good-school.png" />
     <Resource Include="EmIR.ico" />
   </ItemGroup>

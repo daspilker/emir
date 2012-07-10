@@ -15,6 +15,7 @@
 */
 
 using System;
+using System.Diagnostics;
 using System.IO;
 using System.Windows;
 using System.Windows.Input;
@@ -99,6 +100,11 @@ namespace EmIR.UI
         void ExitExecuted(object sender, ExecutedRoutedEventArgs e)
         {
             Close();
+        }
+
+        void HelpExecuted(object sender, ExecutedRoutedEventArgs e)
+        {
+            Process.Start("https://github.com/daspilker/emir/wiki/Getting-Started-Guide");
         }
 
         void ConnectToControlPanelExecuted(object sender, ExecutedRoutedEventArgs e)
