@@ -1,5 +1,5 @@
 ﻿/*
-   Copyright 2010 Daniel A. Spilker
+   Copyright 2012 Daniel A. Spilker
 
    Licensed under the Apache License, Version 2.0 (the "License");
    you may not use this file except in compliance with the License.
@@ -28,7 +28,7 @@ using System.Windows;
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("")]
 [assembly: AssemblyProduct("EmIR")]
-[assembly: AssemblyCopyright("Copyright © Daniel A. Spilker 2010")]
+[assembly: AssemblyCopyright("Copyright © Daniel A. Spilker 2012")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
 

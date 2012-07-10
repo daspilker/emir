@@ -1,5 +1,5 @@
 ﻿<!--
-   Copyright 2010 Daniel A. Spilker
+   Copyright 2012 Daniel A. Spilker
 
    Licensed under the Apache License, Version 2.0 (the "License");
    you may not use this file except in compliance with the License.
@@ -39,7 +39,7 @@
             <StackPanel>
                 <TextBlock FontWeight="Bold" Text="EmIR"/>
                 <TextBlock Text="{Binding Version, Source={x:Static Application.Current}}"/>
-                <TextBlock Text="&#169; 2010 Daniel A. Spilker"/>
+                <TextBlock Text="&#169; 2012 Daniel A. Spilker"/>
                 <TextBlock>
                     <Hyperlink NavigateUri="http://daniel-spilker.com/" RequestNavigate="HyperlinkRequestNavigate">http://daniel-spilker.com/</Hyperlink>
                 </TextBlock>
@@ -55,7 +55,7 @@
         </DockPanel>
         <TextBlock Grid.Row="1" Margin="0,12,0,3" Text="License:"/>
         <ScrollViewer Grid.Row="2" HorizontalScrollBarVisibility="Auto" VerticalScrollBarVisibility="Auto">
-            <TextBlock FontFamily="Courier New" xml:space="preserve" Padding="6" Background="{DynamicResource {x:Static SystemColors.InfoBrushKey}}">Copyright 2010 Daniel A. Spilker
+            <TextBlock FontFamily="Courier New" xml:space="preserve" Padding="6" Background="{DynamicResource {x:Static SystemColors.InfoBrushKey}}">Copyright 2012 Daniel A. Spilker
 
 Licensed under the Apache License, Version 2.0 (the "License");
 you may not use this file except in compliance with the License.
